@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy policy · CareFlow</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="alternate" hreflang="zh" href="https://careflow.sionstudio.xyz/zh/privacy/" />
+  <link rel="alternate" hreflang="en" href="https://careflow.sionstudio.xyz/en/privacy/" />
+</head>
+<body>
+  <header>
+    <a href="/en/">
+      <div class="brand">CareFlow</div>
+      <p class="tagline">Family medication management</p>
+    </a>
+    <nav>
+      <a href="/en/about/">About us</a>
+      <a href="/en/privacy/" aria-current="page">Privacy policy</a>
+      <a href="/en/terms/">Terms of service</a>
+      <span class="lang-switch"><a href="/zh/privacy/">中文</a></span>
+    </nav>
+  </header>
+
+  <main>
+    <div class="card">
+      <h1>Privacy policy</h1>
+      <p class="updated">Last updated: June 23, 2026</p>
+
+      <p>
+        Sion Studio ("we") operates the CareFlow app ("the App"). This policy describes how we handle your information.
+        By using the App, you agree to this policy.
+      </p>
+
+      <h2>1. Information we collect</h2>
+      <ul>
+        <li><strong>Account data</strong>: email address and authentication identifiers when you sign up or sign in.</li>
+        <li><strong>Health and medication data</strong>: care-subject profiles, medicines, inventory, plans, reminders, and intake logs you enter.</li>
+        <li><strong>Media</strong>: avatars and medicine package photos you upload.</li>
+        <li><strong>App settings</strong>: language, time format, reminder preferences, and similar options.</li>
+        <li><strong>Subscriptions</strong>: purchases are processed by Apple or Google; we may receive subscription status to unlock features (e.g. via RevenueCat).</li>
+        <li><strong>Device and usage</strong>: basic device identifiers and app version for sync and troubleshooting. We do not sell your personal data.</li>
+        <li><strong>Diagnostic logs (optional)</strong>: the App may store a small technical event log on your device; we receive it only if you choose to attach it when sending feedback.</li>
+      </ul>
+
+      <h2>2. How we use information</h2>
+      <ul>
+        <li>Provide reminders, cabinet management, records, and optional multi-device sync</li>
+        <li>Authenticate you, restore access, and manage entitlements</li>
+        <li>When you use medicine-name recognition, process photos on our servers (optional, rate-limited)</li>
+        <li>Respond to support requests and improve the product</li>
+        <li>When you opt in to attach diagnostic logs with feedback, analyze technical events to troubleshoot issues (logs exclude medicine names, emails, and passwords)</li>
+      </ul>
+
+      <h2>3. Storage and sync</h2>
+      <p>
+        CareFlow is <strong>local-first</strong>: without an account, data stays primarily on your device.
+        When signed in, selected data is transmitted securely and stored with <strong>Supabase</strong> for sync across devices.
+      </p>
+      <p>
+        Recognition sends photos to our Edge Function and may use <strong>Google Gemini</strong> vision models.
+        Photos are used only to return a name suggestion, not to train public models.
+      </p>
+
+      <h2>4. Third-party services</h2>
+      <ul>
+        <li><strong>Supabase</strong> — auth, database, file storage</li>
+        <li><strong>RevenueCat</strong> — in-app subscription management</li>
+        <li><strong>Apple / Google</strong> — app distribution and payments</li>
+        <li><strong>Google Gemini</strong> — optional package label recognition</li>
+      </ul>
+
+      <h2>5. Notifications</h2>
+      <p>
+        If you grant notification permission, reminders are scheduled locally on your device.
+        Reminder content is not shared with advertising networks.
+      </p>
+
+      <h2>6. Diagnostic logs (optional)</h2>
+      <p>
+        For technical support, the App may store diagnostic logs locally on your device (for example app start, sign-in, sync, subscription, and notification scheduling <strong>events</strong>).
+        Logs are <strong>not uploaded by default</strong> and are capped at about 10MB on device; older entries are removed automatically.
+      </p>
+      <ul>
+        <li>Logs do <strong>not</strong> include medicine names, doses, intake records, emails, passwords, or access tokens.</li>
+        <li>We receive a log file only when you <strong>opt in</strong> under Help &amp; feedback and send it to us.</li>
+        <li>You may send feedback without attaching logs; other features work the same.</li>
+      </ul>
+
+      <h2>7. Retention and deletion</h2>
+      <p>
+        Deleted in-app data is marked for removal according to sync rules; signing out clears local user data.
+        To request deletion of your cloud account and associated data, email
+        <a href="mailto:careflow2024@gmail.com">careflow2024@gmail.com</a>.
+      </p>
+
+      <h2>8. Children</h2>
+      <p>
+        Caregivers may record medication information for minors; the account holder must be an adult or otherwise authorized to manage the data.
+      </p>
+
+      <h2>9. Changes</h2>
+      <p>
+        We may update this policy and post the effective date on this page. Material changes may also be communicated in the App.
+      </p>
+
+      <h2>10. Contact</h2>
+      <p>
+        Privacy inquiries: <a href="mailto:careflow2024@gmail.com">careflow2024@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© Sion Studio · <a href="https://sionstudio.xyz">sionstudio.xyz</a></p>
+  </footer>
+</body>
+</html>
