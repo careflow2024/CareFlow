@@ -25,7 +25,7 @@
   <main>
     <div class="card">
       <h1>Privacy policy</h1>
-      <p class="updated">Last updated: June 23, 2026</p>
+      <p class="updated">Last updated: July 22, 2026</p>
 
       <p>
         Sion Studio ("we") operates the CareFlow app ("the App"). This policy describes how we handle your information.
@@ -40,6 +40,7 @@
         <li><strong>App settings</strong>: language, time format, reminder preferences, and similar options.</li>
         <li><strong>Subscriptions</strong>: purchases are processed by Apple or Google; we may receive subscription status to unlock features (e.g. via RevenueCat).</li>
         <li><strong>Device and usage</strong>: basic device identifiers and app version for sync and troubleshooting. We do not sell your personal data.</li>
+        <li><strong>Crash and stability diagnostics</strong>: when crash reporting is enabled, the App may send crash reports and related technical diagnostics to <strong>Sentry</strong> (for example app version, device model, OS version, and stack traces) so we can diagnose failures and improve stability. This data does not include medicine names, doses, intake records, emails, or passwords you enter.</li>
         <li><strong>Diagnostic logs (optional)</strong>: the App may store a small technical event log on your device; we receive it only if you choose to attach it when sending feedback.</li>
       </ul>
 
@@ -50,6 +51,7 @@
         <li>When you use medicine-name recognition, process photos on our servers (optional, rate-limited)</li>
         <li>Respond to support requests and improve the product</li>
         <li>When you opt in to attach diagnostic logs with feedback, analyze technical events to troubleshoot issues (logs exclude medicine names, emails, and passwords)</li>
+        <li>Analyze crashes and stability issues via Sentry to fix defects and improve reliability</li>
       </ul>
 
       <h2>3. Storage and sync</h2>
@@ -68,6 +70,7 @@
         <li><strong>RevenueCat</strong> — in-app subscription management</li>
         <li><strong>Apple / Google</strong> — app distribution and payments</li>
         <li><strong>Google Gemini</strong> — optional package label recognition</li>
+        <li><strong>Sentry</strong> — crash reporting and stability diagnostics</li>
       </ul>
 
       <h2>5. Notifications</h2>
@@ -89,8 +92,22 @@
 
       <h2>7. Retention and deletion</h2>
       <p>
-        Deleted in-app data is marked for removal according to sync rules; signing out clears local user data.
-        To request deletion of your cloud account and associated data, email
+        <strong>Local data.</strong> Without an account, your data stays on your device until you uninstall the App or clear app data.
+        Signing out clears local data for the signed-in user on that device.
+      </p>
+      <p>
+        <strong>In-app content.</strong> When you delete medicines, reminders, or other records in the App, deletions follow sync rules.
+        If you are signed in, changes sync to the cloud; if not, they remain on the device only.
+      </p>
+      <p>
+        <strong>Delete account.</strong> If you are signed in, open
+        <strong>Settings → Account &amp; data → Delete account</strong> to permanently delete your cloud account and associated synced data
+        (including your profile, care subjects, medicines, plans, intake records, and uploaded avatars or medicine photos).
+        Email-and-password users must re-enter their password to confirm; Google or Apple sign-in users confirm in the dialog.
+        This cannot be undone. After deletion, you are signed out and local user data on the device is cleared.
+      </p>
+      <p>
+        If you cannot use in-app deletion or have other privacy requests, contact
         <a href="mailto:careflow2024@gmail.com">careflow2024@gmail.com</a>.
       </p>
 
